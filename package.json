@@ -4,8 +4,7 @@
   "description": "A simple Node.js app",
   "main": "hello.js",
   "scripts": {
-    "start": "node hello.js",
-    "build": "echo 'Build script not defined'"
+    "start": "node hello.js"
   },
   "author": "Your Name",
   "license": "ISC",

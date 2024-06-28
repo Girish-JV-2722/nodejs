@@ -2,18 +2,19 @@
   "name": "my-nodejs-app",
   "version": "1.0.0",
   "description": "A simple Node.js app",
-  "main": "src/hello.js",          
+  "main": "hello.js",
   "scripts": {
-    "start": "node src/hello.js",  
-    "test": "echo 'No tests specified'",  
-    "lint": "eslint ."             
+    "start": "node hello.js",
+    "test": "mocha",
+    "build": "echo 'Running Build Script'"
   },
-  "author": "Your Name",
+  "author": "admin",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"           
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint": "^7.32.0"            
+    "eslint": "^7.32.0",
+    "mocha": "^10.5.2"
   }
 }

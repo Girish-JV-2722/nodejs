@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node hello.js",
     "test": "mocha",
-    "build": "echo 'Running Build Script'"
+    "build": "echo 'Running Build Script'",
+    "prod": "node Hello.js"
   },
   "author": "admin",
   "license": "ISC",
